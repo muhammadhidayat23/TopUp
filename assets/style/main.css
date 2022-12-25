@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    font-family: poppins;
+}
+
+:root {
+    --primary-color: #362ABD;
+    --light-primary: #DDDAFC;
+    --black-1-color: #161237;
+    --black-2-color: #2A2838;
+    --grey-color: #89898F;
+    --thin: #F9FAFF;
+    --yellow-color: #FBBC05;
+    --white-color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* Navbar */
+
+.navbar-brand img {
+    width: 44px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--grey-color)!important;
+}
+
+.sign-in .btn {
+    border: none;
+    border-radius: 30px;
+    width: 108px;
+    height: 43px;
+    background-color: var(--light-primary);
+    color: var(--primary-color);
+    font-size: 15;
+    font-weight: 500;
+}
+
+.nav-link.active {
+    color: var(--primary-color)!important;
+}
+
+.navbar-nav a:hover {
+    color: var(--black-1-color)!important;
+}
+
+
+/* Section Hero */
+
+.col-md-6 p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black-1-color);
+}
+
+.col-md-6 h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.col-md-7 .btn {
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+    height: 49px;
+    width: 150px;
+}
+
+.col-md-7 .btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    margin-right: 10px;
+}
+
+.btn-secondary {
+    border: none;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 15px;
+    width: 163px;
+    height: 49px;
+    background-color: var(--light-primary);
+    color: var(--primary-color);
+}
+
+.btn-secondary:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+
+/* Section Content */
+
+.content {
+    margin-top: 168px;
+}
+
+.content h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.col-md-4 .card {
+    border: none;
+    background-color: var(--thin);
+    border-radius: 12px;
+}
+
+.card-body img {
+    width: 79px;
+}
+
+.card-body h2 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.card-body p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.top-character img {
+    width: 650px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: var(--thin);
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.logo-footer {
+    width: 44px;
+}
+
+.col-2 p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sosmed img {
+    width: 24px;
+    margin-right: 14px;
+}
+
+.col-md-2 h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-service .col-md-2 h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.col-md-2 a {
+    text-decoration: none;
+    color: var(--black-2-color);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.col-md-3 h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.col-md-3 a {
+    text-decoration: none;
+    color: var(--black-2-color);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.col-md-2 a:hover {
+    color: var(--primary-color);
+}
+
+.copyright p {
+    font-size: 14px!important;
+    font-weight: 400;
+    color: var(--black-2-color);
+}
+
+
+/* Screen Mobile */
+
+@media only screen and (max-width:670px) {
+    .col-md-6 h1 {
+        font-size: 24px;
+    }
+    .col-md-6 p {
+        font-size: 10px;
+    }
+    .sign-in {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .col-md-6 h1 {
+        font-size: 24px;
+    }
+    .col-md-6 p {
+        font-size: 10px;
+    }
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sign-in {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .col-md-7 .btn {
+        border: none;
+        font-size: 10px;
+        height: 40px;
+        width: 90px;
+    }
+}
